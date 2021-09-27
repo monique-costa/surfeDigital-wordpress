@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+.header-container{
+    padding: 3vh 6vw;
+    border-bottom: 1.5px solid #F1F1F1;
+    width: 100%;
+}
+
+.header-logo-container, .nav-container{
+    margin: auto 0;
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation-menu li {
+    padding: 15px 0;
+}
+
+.navigation-menu li a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #404040;
+    margin: 0 43px;
+    position: relative;
+}
+
+.navigation-menu li a:hover{
+    color: #da291c;
+    text-decoration: none;
+}
+
+.navigation-menu li ul {
+    display: none;
+    background: #FFF;
+    position: absolute;
+    left: 50px;
+    z-index: 99999;
+    width: 390px;
+    list-style-type: none;
+}
+
+.navigation-menu li:hover > ul {
+    text-transform: uppercase;
+    padding: 32px 0;
+    width: 390px;
+    display: block;
+    padding-top: 60px;
+}
+
+.navigation-menu li ul li {
+    padding: 20px 0;
+    color: #FFF4F3;
+}
+
+.navigation-menu li:last-child{
+    background: #da291c;
+    text-transform: uppercase;
+    color: #ffffff;
+    align-self: center;
+}
+
+.navigation-menu li:last-child a{
+    color: #FFF;
+}
+
+.navigation-menu li ul li:last-child {
+    background: #FFF;
+}
+
+.navigation-menu li ul li:last-child a {
+    color: #404040;
+}
+
+.navigation-menu li ul li:hover {
+    background: #FFF4F3;
+    text-decoration: none;
+}
+
+.toggle-nav {
+    display: none !important;
+}

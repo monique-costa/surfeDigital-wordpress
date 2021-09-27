@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Roboto+Slab:wght@700;&display=swap');
+
+.ip-post2-generic-container{
+    margin: 120px auto;
+}
+
+.ip-post2-image-container .wp-post-image{
+    width: 100%;
+    height: auto;
+}
+
+.ip-post2-title{
+    color: #DA291C;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 3.8px;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.ip-post2-subtitle{
+    color: #404040;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 120%;
+    letter-spacing: 0.1px;
+}
+
+.ip-post2-text-container p{
+    color: #9A9A9A;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0.15px;
+    margin: 25px 0 57px 0;
+}
+
+.ip-post2-list{
+    list-style: none;
+    display: flex;
+    margin-left: -65px;
+}
+
+.ip-post2-item{
+    align-content: center;
+    text-align: center;
+    margin: 0 25px;
+}
+
+.ip-post2-item p{
+    width: 120px;
+    margin: 0 auto;
+    color: #404040;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0.15px;
+    margin: 17px 0 96px 0;
+}
+
+.ip-post2-list-img{
+    display: block;
+    margin: 0 auto;
+}
+
+.ip-post2-button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background: #da291c;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: none;
+    padding: 18px;
+}

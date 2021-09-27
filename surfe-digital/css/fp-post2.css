@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Roboto+Slab:wght@700;&display=swap');
+
+.post2-individual-container:nth-child(even){
+    background: #BA1D12;
+}
+
+.post2-individual-container:nth-child(odd){
+    background: #DA291C;
+}
+
+.post2-individual-container{
+    padding: 50px;
+}
+
+.post2-individual-container .wp-post-image {
+    margin-bottom: 22px;
+}
+
+.post2-title {
+    color: #FFF;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: 0.15px;
+    margin-bottom: 15px;
+}
+
+.post2-individual-container p {
+    color: #FFACA6;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+}

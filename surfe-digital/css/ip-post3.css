@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Roboto+Slab:wght@700;&display=swap');
+
+.ip-post3-generic-container{
+    width: 100%;
+    margin: 120px auto 0 auto;
+    text-align: center;
+}
+
+
+.ip-post3-text-container{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ip-post3-title{
+    color: #DA291C;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 3.8px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.ip-post3-subtitle{
+    color: #404040;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.1px;
+    margin-bottom: 25px;
+}
+
+.ip-post3-text-container p{
+    color: #9A9A9A;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    letter-spacing: 0.15px;
+    margin-bottom: 40px;
+    max-width: 755px;
+}
+
+.ip-post3-squares-container{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ip-post3-square{
+    background: #F1F1F1;
+    max-width: 306px;
+    max-height: 306px;
+    margin: 10px auto;
+}
+
+.ip-post3-image{
+    margin: 35px 118px 28px 118px;
+}
+
+.ip-post3-square-title{
+    color: #404040;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.15px;
+    margin-bottom: 20px;
+}
+
+.ip-post3-square p {
+    color: #9A9A9A;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+    text-align: center;
+    letter-spacing: 0.18px;
+    margin-bottom: 65px;
+}
+
+.ip-post3-button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background: #FFF;
+    border: 2px solid #da291c;
+    text-transform: uppercase;
+    color: #DA291C;
+    padding: 18px;
+    margin: 88px auto;
+}

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Roboto+Slab:wght@700;&display=swap');
+
+.ip-post4-generic-container{
+    background: #F1F1F1;
+}
+
+.ip-post4-title{
+    color: #DA291C;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 3.8px;
+    text-transform: uppercase;
+    margin: 85px auto 5px auto;
+}
+
+.ip-post4-subtitle{
+    color: #404040;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.1px;
+    margin-bottom: 60px;
+}
+
+#ip-post4-carousel, #ip-post4-carousel .carousel-inner, #ip-post4-carousel .carousel-item {
+    max-width: 400px;
+    height: 450px;
+    margin: 0 auto;
+}
+
+.ip-post4-image{
+    margin: 0 auto;
+}
+
+.ip-post4-carousel-title{
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: #404040;
+    margin-top: 20px;
+}
+
+.carousel-item p{
+    color: #9A9A9A;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.ip-post4-button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background: #da291c;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: none;
+    padding: 18px;
+    display: block;
+    margin: 60px auto 85px auto;
+}

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Roboto+Slab:wght@700;&display=swap');
+
+.post1-generic-container{
+    margin: 80px auto;
+}
+
+.post1-image-container .wp-post-image{
+    width: 100%;
+    height: auto;
+}
+
+.post1-title{
+    color: #404040;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 3.8px;
+    text-transform: uppercase;  
+    margin-bottom: 15px;
+}
+
+.post1-subtitle1, .post1-subtitle2{
+    color: #DA291C;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 120%;
+    letter-spacing: 0.15px;
+}
+
+.post1-subtitle2{
+    color: #404040;
+}
+
+.post1-text-container p{
+    color: #9a9a9a;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0.15px;
+    margin: 25px 0 90px 0;
+}
+
+.post1-button1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background: #da291c;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: none;
+    padding: 20px;
+}
+
+.post1-button2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background: #FFF;
+    text-transform: uppercase;
+    color: #da291c;
+    border: none;
+    padding: 20px;
+}
+
+.post1-arrow {
+    margin-left: 15px;
+}
